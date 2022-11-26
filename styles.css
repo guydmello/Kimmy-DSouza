@@ -152,18 +152,18 @@ p {
     size: 4;
 }
 
-.about-me-leftline {
+/* .about-me-leftline {
     border-left: 1.5px solid white;
     height: 60px;
-    position: absolute;
-    left: 38%;
-    bottom: 46.2%;
+    position: relative;
+    left: 539px;
+    bottom: 91px;
 }
 
 .about-me-rightline {
     border-left: 1.5px solid white;
     height: 60px;
     position: absolute;
-    right: 37.9%;
+    right: 538px;
     top: 56.1%;
-}
+} */
