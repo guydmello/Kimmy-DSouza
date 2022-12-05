@@ -2,7 +2,7 @@
 /* Create a top navigation bar with a black background color  */
 body {
     /* background-image: url("images/index_background (2).jpg"); */
-    background-color: #471917;
+    background-color: #081C2F;
     background-position: 0% 50%;
     margin-left: 0%;
     margin-right: 0%;
@@ -227,32 +227,21 @@ p {
     color: white;
 }
 
-.resume {
-    margin-top: 10px;
-    width: 900px;
-    height: auto;
-    box-shadow: 0 8px 6px -6px black;
-    color: white;
-    text-align: center;
-}
-
-a.resume-download-link {
-    color: white;
-}
-
-/* mouse over link */
-a.resume-download-link:hover {
-    color: rgb(129, 129, 129);
-  }
-
-  .box {
+.box {
     padding: 0px;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 100px;
-    background-color: #321110;
+    background-color: #061421;
     line-height: 300px;
     text-align: center;
-    margin-top: 0px;
     margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+.youtube {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }

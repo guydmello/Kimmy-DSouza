@@ -327,7 +327,13 @@ nav a.splitleft.nav-pronouns {
      }
  }
   
-
-
-
-  
+ .box {
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #281C28;
+    line-height: 300px;
+    text-align: center;
+    margin-top: 0px;
+}
