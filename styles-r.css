@@ -2,7 +2,7 @@
 /* Create a top navigation bar with a black background color  */
 body {
     /* background-image: url("images/index_background (2).jpg"); */
-    background-color: rgba(68,58,49, 0.95);
+    background-color: #471917;
     background-position: 0% 50%;
     margin-left: 0%;
     margin-right: 0%;
@@ -226,3 +226,21 @@ p {
     line-height: 3;
     color: white;
 }
+
+.resume {
+    margin-top: 10px;
+    width: 900px;
+    height: auto;
+    box-shadow: 0 8px 6px -6px black;
+    color: white;
+    text-align: center;
+}
+
+a.resume-download-link {
+    color: white;
+}
+
+/* mouse over link */
+a.resume-download-link:hover {
+    color: rgb(129, 129, 129);
+  }
