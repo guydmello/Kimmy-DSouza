@@ -1,4 +1,3 @@
-
 /* Create a top navigation bar with a black background color  */
 body {
     /* background-image: url("images/index_background (2).jpg"); */
@@ -16,17 +15,18 @@ nav {
     margin-right: 0%;
     margin-top: 0%;
     overflow: hidden;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     justify-content: space-between;
     display: flex;
 }
-  
-  /* Style the links inside the navigation bar */
+
+/* Style the links inside the navigation bar */
 nav a {
     color: white;
     display: flex;
     flex-wrap: wrap;
 }
+
 nav .nav-middle {
     display: flex;
     flex-wrap: wrap;
@@ -127,27 +127,28 @@ nav a.splitleft.nav-pronouns {
 * {
     margin: 0;
     padding: 0;
-  }
-  
+}
+
 .image-main {
     display: block;
     height: 100%;
     object-fit: contain;
 }
+
 .center-fit {
     display: flex;
     padding: 0px;
     max-width: 100%;
     width: 100%;
-    height: auto ;
+    height: auto;
 }
 
 * {
     margin: auto;
     padding: auto;
-  }
+}
 
-.box-about-me{
+.box-about-me {
     padding: 0px;
     position: relative;
     width: 100%;
@@ -161,8 +162,8 @@ nav a.splitleft.nav-pronouns {
 
 
 .about-me-box {
-  border-left: thin solid white;
-  height: 50px;
+    border-left: thin solid white;
+    height: 50px;
 }
 
 .about-me-topline {
@@ -187,7 +188,7 @@ nav a.splitleft.nav-pronouns {
     height: 50px;
     position: absolute;
     width: 100%;
-  }
+}
 
 
 .container {
@@ -195,24 +196,25 @@ nav a.splitleft.nav-pronouns {
     align-items: center;
     justify-content: center;
     padding: 0px;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%
-  }
-  
-  .image {
+}
+
+.image {
     flex-basis: 40%
-  }
-  
-  .text {
+}
+
+.text {
     font-size: 20px;
     padding-left: 20px;
-  }
+}
 
-html, body { 
-    padding:0;
-    margin:0;
+html,
+body {
+    padding: 0;
+    margin: 0;
 }
 
 p {
@@ -243,9 +245,9 @@ a.resume-download-link {
 /* mouse over link */
 a.resume-download-link:hover {
     color: rgb(129, 129, 129);
-  }
+}
 
-  .box {
+.box {
     padding: 0px;
     position: relative;
     width: 100%;
