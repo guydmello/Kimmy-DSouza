@@ -1,27 +1,35 @@
+
 /* Create a top navigation bar with a black background color  */
 body {
-    background-image: url("images/index_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 30%;
+    /* background-image: url("images/index_background (2).jpg"); */
+    background-color: rgba(68,58,49, 0.95);
+    background-position: 0% 50%;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 nav {
-    background-color: transparent;
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
     overflow: hidden;
     font-family: arial,sans-serif;
+    justify-content: space-between;
+    display: flex;
 }
   
   /* Style the links inside the navigation bar */
 nav a {
-    float: left;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .nav-middle {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Change the color of links on hover */
@@ -115,31 +123,53 @@ nav a.splitleft.nav-pronouns {
 .nav-link-rtl:hover::before {
     width: 100%;
 }
-      
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.image-main {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+}
+.center-fit {
+    display: flex;
+    padding: 0px;
+    max-width: 100%;
+    width: 100%;
+    height: auto ;
+}
+
+* {
+    margin: auto;
+    padding: auto;
+  }
 
 .box-about-me{
-    margin-top: 750px;
+    padding: 0px;
     position: relative;
     width: 100%;
     height: 300px;
     background-color: #2F2620;
     line-height: 300px;
     text-align: center;
+    margin-top: 0px;
 }
 
-p {
-    line-height: normal;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 65px;
-    color: white;
+
+
+.about-me-box {
+  border-left: thin solid white;
+  height: 50px;
 }
 
 .about-me-topline {
     position: relative;
     top: 100px;
     left: -113px;
-    width: 8%;
+    width: 10%;
     size: 4;
     color: white;
 }
@@ -152,18 +182,47 @@ p {
     size: 4;
 }
 
-/* .about-me-leftline {
-    border-left: 1.5px solid white;
-    height: 60px;
-    position: relative;
-    left: 539px;
-    bottom: 91px;
+.vl {
+    border-left: 2px solid green;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+  }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+html, body { 
+    padding:0;
+    margin:0;
 }
 
-.about-me-rightline {
-    border-left: 1.5px solid white;
-    height: 60px;
-    position: absolute;
-    right: 538px;
-    top: 56.1%;
-} */
+p {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 45px;
+    width: 350px;
+    margin: auto;
+    line-height: 3;
+    color: white;
+}
