@@ -231,14 +231,12 @@ p {
 
 .box {
     padding: 0px;
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100px;
     background-color: #061421;
     text-align: center;
-    margin-top: 40px;
-    position: fixed;
-    bottom: 0;
+    margin-top: 50px;
     text-align: center;
     display: flex;
     justify-content: center;
